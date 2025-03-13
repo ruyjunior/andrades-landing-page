@@ -5,6 +5,7 @@ export const footerDetails: {
     subheading: string;
     quickLinks: IMenuItem[];
     email: string;
+    cnpj: string;
     telephone: string;
     telephone2: string;
     address: string;
@@ -12,6 +13,7 @@ export const footerDetails: {
 } = {
     subheading: "Add a touch of confidence to your look. Discover our treatments.",
     quickLinks: menuItems,
+    cnpj: '44.615.561/0001-70',
     email: 'andradesclinic@gmail.com',
     telephone: '+5571993116987',
     telephone2: '+5571992666597',
