@@ -4,8 +4,12 @@ import { benefits } from "@/data/benefits"
 
 const Benefits: React.FC = () => {
     return (
-        <div id="features">
+        <div id="features" className="py-10 bg-gray-100 intems-center">
             <h2 className="sr-only">Features</h2>
+            <h3 className="text-2xl font-bold text-gray-900">
+                Features
+            </h3>
+
             {benefits.map((item, index) => {
                 return <BenefitSection key={index} benefit={item} imageAtRight={index % 2 !== 0} />
             })}

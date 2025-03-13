@@ -2,13 +2,18 @@ import { ITeam } from "@/types";
 
 export const team: ITeam[] = [
     {
-        name: "Name 1 ",
-        position: "Position",
+        name: "Naiara Andrade",
+        position: "Fisioterapeuta Dermatofuncional",
         imageSrc: "/images/team/team1.png"
     },
     {
-        name: "Name 2 ",
-        position: "Position",
+        name: "Neiva Andrade",
+        position: "Enfermeira",
+        imageSrc: "/images/team/team1.png"
+    },
+    {
+        name: "Nátaly Andrade",
+        position: "Biomédica",
         imageSrc: "/images/team/team2.png"
     }
 

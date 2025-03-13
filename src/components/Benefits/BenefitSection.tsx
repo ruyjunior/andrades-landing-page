@@ -50,7 +50,7 @@ const BenefitSection: React.FC<Props> = ({ benefit, imageAtRight }: Props) => {
     const { title, description, imageSrc, bullets } = benefit;
 
     return (
-        <section className="benefit-section">
+        <section className="benefit-section">            
             <motion.div
                 className="flex flex-wrap flex-col items-center justify-center gap-2 lg:flex-row lg:gap-20 lg:flex-nowrap mb-24"
                 variants={containerVariants}
@@ -95,7 +95,7 @@ const BenefitSection: React.FC<Props> = ({ benefit, imageAtRight }: Props) => {
                             height="762"
                             quality={100}
                             priority={false}
-                            className="lg:ml-0 rounded-md w-auto" />
+                            className="lg:ml-0 rounded-md w-auto mt-10" />
                     </div>
                 </div>
             </motion.div>

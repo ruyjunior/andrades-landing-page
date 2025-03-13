@@ -3,23 +3,23 @@ import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
     {
-        question: `Are the workouts at ${siteDetails.siteName} suitable for beginners?`,
-        answer: 'Yes! Our workouts are adaptable for all levels, from beginners to advanced athletes. You will progress at your own pace with professional guidance.',
+        question: `Are the treatments at ${siteDetails.siteName} suitable for all skin types?`,
+        answer: "Yes! Our treatments are designed to be safe and effective for all skin types. During your consultation, our specialists will assess your skin and recommend the best options for you.",
     },
     {
-        question: 'Do I need my own equipment to train?',
-        answer: 'It is not mandatory. We provide the necessary equipment for training, but we recommend having your own items, such as gloves and grips, for better comfort and hygiene.',
+        question: "Do I need to prepare before a treatment session?",
+        answer: "It depends on the treatment. Some procedures may require avoiding sun exposure, certain skincare products, or specific medications. Our team will provide detailed pre-treatment guidelines.",
     },
     {
-        question: 'Does CrossFit help with weight loss and fitness conditioning?',
-        answer: `Absolutely! CrossFit workouts combine high-intensity exercises that accelerate fat burning, improve overall fitness, and increase muscle strength.`,
+        question: "How many sessions are needed to see results?",
+        answer: "The number of sessions varies based on the treatment and individual skin response. Some treatments show results after just one session, while others may require multiple visits for optimal effects.",
     },
     {
-        question: 'Can I take a trial class before signing up?',
-        answer: 'Yes! We offer trial classes so you can experience our facilities, methodology, and coaches before starting your CrossFit journey.',
+        question: "Is there any downtime after treatments?",
+        answer: "Most treatments have minimal to no downtime, allowing you to resume daily activities immediately. However, some procedures may cause temporary redness or sensitivity. Our experts will guide you on post-treatment care.",
     },
     {
-        question: 'What are the benefits of CrossFit beyond physical fitness?',
-        answer: 'In addition to improving physical fitness, CrossFit promotes discipline, focus, teamwork, self-confidence, and mental well-being.',
+        question: "What are the benefits of aesthetic treatments beyond appearance?",
+        answer: "In addition to enhancing your appearance, our treatments promote skin health, boost self-confidence, and contribute to overall well-being by addressing concerns like acne, aging signs, and skin hydration.",
     }
 ];

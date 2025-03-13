@@ -6,6 +6,7 @@ import Container from "@/components/Container";
 import Location from "@/components/Location";
 import Team from "@/components/Team";
 import Payments from "@/components/Payments";
+import ServicesCarousel from "@/components/ServicesCarousel";
 //import NewsCarousel from "@/components/News";
 
 const HomePage: React.FC = () => {
@@ -13,8 +14,8 @@ const HomePage: React.FC = () => {
     <>
       <Hero />
       <Container>
+        <ServicesCarousel />
         <Benefits />
-        <Pricing />
         <Payments />
         <Team />
         <FAQ />

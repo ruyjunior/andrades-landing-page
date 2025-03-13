@@ -2,7 +2,6 @@ import Image from 'next/image';
 
 const logos = [
   '/images/payments/pix.png',
-  '/images/payments/wellhub.png',
   '/images/payments/visa.png',
   '/images/payments/master.png',
   '/images/payments/elo.png',
@@ -12,7 +11,7 @@ const Payments = () => {
   return (
     <section id="payments" className="py-16 text-center bg-gray-50">
       <h3 className="text-2xl font-bold text-gray-900">
-        Payments
+        Payment methods
       </h3>
       <p className="mt-2 text-gray-600">
         These are our payment methods
