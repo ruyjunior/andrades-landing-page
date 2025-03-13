@@ -14,8 +14,8 @@ export const footerDetails: {
     quickLinks: menuItems,
     email: 'andradesclinic@gmail.com',
     telephone: '+5571993116987',
-    telephone2: '+55 71 99266 6597',
-    address: 'Rua Nossa Senhora do Carmo n69, Sete de Abril, Salvador, Bahia, Brasil',
+    telephone2: '+5571992666597',
+    address: 'Rua Nossa Senhora do Carmo, 69, Sete de Abril, Salvador, Bahia, Brasil',
     socials: {
         // github: 'https://github.com',
         // x: 'https://twitter.com/x',

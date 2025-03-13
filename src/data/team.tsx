@@ -9,12 +9,12 @@ export const team: ITeam[] = [
     {
         name: "Neiva Andrade",
         position: "Enfermeira",
-        imageSrc: "/images/team/team1.png"
+        imageSrc: "/images/team/team2.png"
     },
     {
         name: "Nátaly Andrade",
         position: "Biomédica",
-        imageSrc: "/images/team/team2.png"
+        imageSrc: "/images/team/team3.png"
     }
 
 ];

@@ -170,13 +170,3 @@ export const benefits: IBenefit[] = [
 
     
 ];
-
-/*
-Limpeza de pele 
-Depilação a laser
-Drenagem linfática
-Massoterapia
-Fisioterapia (pós operatória cirurgia plástica)
-Aplicação de enzimas 
-Rejuvenescimento facial
-*/
