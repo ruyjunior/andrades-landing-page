@@ -1,9 +1,9 @@
 export const siteDetails = {
-    siteName: "CLÍNICA ANDRADE'S",
+    siteName: "CLÍNICA ANDRADES",
     siteUrl: 'https://andradesesteticas.com.br',
     metadata: {
-        title: "CLÍNICA ANDRADE'S",
-        description: 'Clinic specialized in facial aesthetics. In addition to procedures, a complete beauty experience.',
+        title: "CLÍNICA ANDRADES",
+        description: 'Clínica especializada em estética facial. Além de procedimentos, uma experiência completa de beleza.',
     },
     language: 'pt-br',
     locale: 'pt-BR',

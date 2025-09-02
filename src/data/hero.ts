@@ -4,5 +4,5 @@ export const heroDetails = {
     heading: siteDetails.metadata.title,
     subheading: siteDetails.metadata.description,
     centerImageSrc: '/images/hero.png',
-    textButton: 'Contact us',
+    textButton: 'Entre em contato',
 }

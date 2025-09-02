@@ -11,10 +11,10 @@ const Payments = () => {
   return (
     <section id="payments" className="py-16 text-center bg-gray-50">
       <h3 className="text-2xl font-bold text-gray-900">
-        Payment methods
+        Formas de Pagamento
       </h3>
       <p className="mt-2 text-gray-600">
-        These are our payment methods
+        Estas são nossas formas de pagamento
       </p>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 mt-8 px-5 max-w-4xl mx-auto">
         {logos.map((logo, index) => (

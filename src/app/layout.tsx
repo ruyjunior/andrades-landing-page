@@ -44,7 +44,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang={siteDetails.language}>
       <body
         className={`${manrope.className} ${sourceSans.className} antialiased`}
       >

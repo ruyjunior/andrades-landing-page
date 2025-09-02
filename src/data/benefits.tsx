@@ -6,167 +6,165 @@ import { IBenefit } from "@/types"
 
 export const benefits: IBenefit[] = [
     {
-        title: "Skin Cleansing",
-        description: "A deep cleansing process that removes dirt, oil, and impurities, leaving the skin refreshed and glowing.",
+        title: "Limpeza de Pele",
+        description: "Um processo de limpeza profunda que remove sujeira, óleo e impurezas, deixando a pele renovada e radiante.",
         bullets: [
             {
-                title: "Deep Hydration",
-                description: "Helps to keep the skin moisturized and prevent dryness.",
+                title: "Hidratação Profunda",
+                description: "Ajuda a manter a pele hidratada e prevenir o ressecamento.",
                 icon: <FiActivity size={26} />
             },
             {
-                title: "Removes Impurities",
-                description: "Effectively cleanses pores and removes dirt and toxins.",
+                title: "Remove Impurezas",
+                description: "Limpa os poros de forma eficaz, removendo sujeira e toxinas.",
                 icon: <FiHeart size={26} />
             },
             {
-                title: "Boosts Radiance",
-                description: "Enhances skin brightness and evens out complexion.",
+                title: "Realça a Luminosidade",
+                description: "Melhora o brilho da pele e uniformiza o tom.",
                 icon: <FiStar size={26} />
             },
             {
-                title: "Gentle on Skin",
-                description: "Suitable for all skin types, even sensitive skin.",
+                title: "Suave para a Pele",
+                description: "Indicado para todos os tipos de pele, inclusive as sensíveis.",
                 icon: <FiCheckCircle size={26} />
             }
         ],
         imageSrc: "/images/services/service1.png"
     },
     {
-        title: "Laser Hair Removal",
-        description: "An effective and long-lasting solution to reduce unwanted hair growth, leaving your skin smooth and hair-free for longer.",
+        title: "Depilação a Laser",
+        description: "Solução eficaz e duradoura para reduzir o crescimento de pelos indesejados, deixando a pele lisa por mais tempo.",
         bullets: [
             {
-                title: "Long-Lasting Results",
-                description: "Significantly reduces hair growth with prolonged effects.",
-                icon: <FiZap size={26} /> // Represents laser energy/light
+                title: "Resultados Duradouros",
+                description: "Reduz significativamente o crescimento dos pelos com efeitos prolongados.",
+                icon: <FiZap size={26} />
             },
             {
-                title: "Precision Treatment",
-                description: "Targets hair follicles without damaging the surrounding skin.",
-                icon: <FiTarget size={26} /> // Represents laser precision
+                title: "Tratamento Preciso",
+                description: "Atua nos folículos sem danificar a pele ao redor.",
+                icon: <FiTarget size={26} />
             },
             {
-                title: "Smoother Skin",
-                description: "Eliminates the need for frequent shaving and reduces ingrown hairs.",
-                icon: <FiFeather size={26} /> // Represents softness and smooth skin
+                title: "Pele Mais Lisa",
+                description: "Elimina a necessidade de depilar com frequência e reduz pelos encravados.",
+                icon: <FiFeather size={26} />
             },
             {
-                title: "Safe & Comfortable",
-                description: "Minimally invasive procedure with little to no discomfort.",
-                icon: <FiShield size={26} /> // Represents safety and protection
+                title: "Seguro e Confortável",
+                description: "Procedimento minimamente invasivo e com pouco ou nenhum desconforto.",
+                icon: <FiShield size={26} />
             }
         ],
         imageSrc: "/images/services/service2.png"
     },
     {
-        title: "Lymphatic Drainage",
-        description: "A therapeutic massage technique that stimulates the lymphatic system, reducing swelling, improving circulation, and promoting detoxification.",
+        title: "Drenagem Linfática",
+        description: "Técnica de massagem terapêutica que estimula o sistema linfático, reduzindo inchaço, melhorando a circulação e promovendo a desintoxicação.",
         bullets: [
             {
-                title: "Reduces Swelling",
-                description: "Helps drain excess fluids, reducing puffiness and water retention.",
-                icon: <FiDroplet size={26} /> // Represents fluid movement
+                title: "Reduz Inchaço",
+                description: "Ajuda a drenar líquidos em excesso, diminuindo o inchaço e retenção de líquidos.",
+                icon: <FiDroplet size={26} />
             },
             {
-                title: "Boosts Circulation",
-                description: "Stimulates blood and lymph flow for better overall health.",
-                icon: <FiRefreshCcw size={26} /> // Represents continuous circulation
+                title: "Melhora a Circulação",
+                description: "Estimula o fluxo sanguíneo e linfático para mais saúde.",
+                icon: <FiRefreshCcw size={26} />
             },
             {
-                title: "Enhances Detoxification",
-                description: "Aids in eliminating toxins, supporting the body's natural cleansing process.",
-                icon: <FiWind size={26} /> // Represents detox and lightness
+                title: "Aumenta a Desintoxicação",
+                description: "Auxilia na eliminação de toxinas, apoiando o processo natural de limpeza do corpo.",
+                icon: <FiWind size={26} />
             },
             {
-                title: "Promotes Relaxation",
-                description: "Relieves tension and stress while improving overall well-being.",
-                icon: <FiHeart size={26} /> // Represents wellness and self-care
+                title: "Promove Relaxamento",
+                description: "Alivia tensão e estresse, melhorando o bem-estar geral.",
+                icon: <FiHeart size={26} />
             }
         ],
         imageSrc: "/images/services/service3.png"
     },
     {
-        title: "Massage Therapy",
-        description: "A therapeutic technique that relieves muscle tension, improves circulation, and promotes relaxation for overall well-being.",
+        title: "Massoterapia",
+        description: "Técnica terapêutica que alivia tensões musculares, melhora a circulação e promove relaxamento para o bem-estar.",
         bullets: [
             {
-                title: "Relieves Muscle Tension",
-                description: "Eases tight muscles, reduces pain, and improves flexibility.",
-                icon: <FiZap size={26} /> // Represents energy and muscle relief
+                title: "Alivia Tensões Musculares",
+                description: "Relaxa músculos, reduz dores e melhora a flexibilidade.",
+                icon: <FiZap size={26} />
             },
             {
-                title: "Enhances Relaxation",
-                description: "Reduces stress and promotes mental and physical relaxation.",
-                icon: <FiSmile size={26} /> // Represents well-being and happiness
+                title: "Aumenta o Relaxamento",
+                description: "Reduz o estresse e promove relaxamento físico e mental.",
+                icon: <FiSmile size={26} />
             },
             {
-                title: "Improves Circulation",
-                description: "Stimulates blood flow, helping oxygen and nutrients reach tissues.",
-                icon: <FiHeart size={26} /> // Represents heart health and circulation
+                title: "Melhora a Circulação",
+                description: "Estimula o fluxo sanguíneo, levando oxigênio e nutrientes aos tecidos.",
+                icon: <FiHeart size={26} />
             },
             {
-                title: "Gentle & Soothing",
-                description: "Provides a calming experience, relieving anxiety and tension.",
-                icon: <FiFeather size={26} /> // Represents softness and care
+                title: "Suave e Aconchegante",
+                description: "Proporciona uma experiência calma, aliviando ansiedade e tensão.",
+                icon: <FiFeather size={26} />
             }
         ],
         imageSrc: "/images/services/service4.png"
     },
     {
-        title: "Physiotherapy (Post-Plastic Surgery)",
-        description: "A specialized treatment that aids in post-surgical recovery, reducing swelling, improving circulation, and enhancing healing for optimal results.",
+        title: "Fisioterapia (Pós-Cirurgia Plástica)",
+        description: "Tratamento especializado que auxilia na recuperação pós-cirúrgica, reduzindo inchaço, melhorando a circulação e acelerando a cicatrização.",
         bullets: [
             {
-                title: "Reduces Swelling & Bruising",
-                description: "Helps drain excess fluids and minimizes post-surgical inflammation.",
-                icon: <FiRefreshCcw size={26} /> // Represents circulation and fluid drainage
+                title: "Reduz Inchaço e Hematomas",
+                description: "Ajuda a drenar líquidos e minimizar inflamações após a cirurgia.",
+                icon: <FiRefreshCcw size={26} />
             },
             {
-                title: "Accelerates Recovery",
-                description: "Promotes tissue healing and helps regain mobility safely.",
-                icon: <FiPlusCircle size={26} /> // Represents healing and recovery progress
+                title: "Acelera a Recuperação",
+                description: "Promove a cicatrização dos tecidos e ajuda a recuperar a mobilidade com segurança.",
+                icon: <FiPlusCircle size={26} />
             },
             {
-                title: "Enhances Circulation",
-                description: "Stimulates blood flow to prevent complications and improve healing.",
-                icon: <FiHeart size={26} /> // Represents cardiovascular health and well-being
+                title: "Melhora a Circulação",
+                description: "Estimula o fluxo sanguíneo para evitar complicações e melhorar a recuperação.",
+                icon: <FiHeart size={26} />
             },
             {
-                title: "Safe & Personalized Treatment",
-                description: "Tailored physiotherapy techniques for a comfortable and effective recovery.",
-                icon: <FiShield size={26} /> // Represents protection and safety
+                title: "Tratamento Seguro e Personalizado",
+                description: "Técnicas de fisioterapia adaptadas para uma recuperação confortável e eficaz.",
+                icon: <FiShield size={26} />
             }
         ],
         imageSrc: "/images/services/service5.png"
     },
     {
-        title: "Enzyme Application",
-        description: "A treatment that uses natural enzymes to promote skin rejuvenation, reduce localized fat, and enhance overall skin appearance.",
+        title: "Aplicação de Enzimas",
+        description: "Tratamento que utiliza enzimas naturais para promover rejuvenescimento da pele, reduzir gordura localizada e melhorar a aparência.",
         bullets: [
             {
-                title: "Reduces Localized Fat",
-                description: "Helps break down fat cells in targeted areas, promoting a more sculpted body shape.",
-                icon: <FiZap size={26} /> // Represents energy and fat breakdown
+                title: "Reduz Gordura Localizada",
+                description: "Auxilia na quebra de células de gordura em áreas específicas, promovendo contorno corporal.",
+                icon: <FiZap size={26} />
             },
             {
-                title: "Promotes Skin Rejuvenation",
-                description: "Stimulates collagen production, reducing the appearance of wrinkles and improving skin texture.",
-                icon: <FiSmile size={26} /> // Represents youthful and healthy skin
+                title: "Promove Rejuvenescimento",
+                description: "Estimula a produção de colágeno, reduz rugas e melhora a textura da pele.",
+                icon: <FiSmile size={26} />
             },
             {
-                title: "Improves Circulation",
-                description: "Enhances blood flow to promote detoxification and skin health.",
-                icon: <FiHeart size={26} /> // Represents improved circulation and health
+                title: "Melhora a Circulação",
+                description: "Aumenta o fluxo sanguíneo, promovendo desintoxicação e saúde da pele.",
+                icon: <FiHeart size={26} />
             },
             {
-                title: "Soothing & Non-Invasive",
-                description: "A gentle, non-invasive procedure that provides a relaxing experience without discomfort.",
-                icon: <FiFeather size={26} /> // Represents the gentle, soothing nature of the treatment
+                title: "Suave e Não Invasivo",
+                description: "Procedimento gentil e relaxante, sem desconforto.",
+                icon: <FiFeather size={26} />
             }
         ],
         imageSrc: "/images/services/service6.png"
     },
-
-    
 ];

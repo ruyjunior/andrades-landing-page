@@ -11,7 +11,7 @@ export const footerDetails: {
     address: string;
     socials: ISocials;
 } = {
-    subheading: "Add a touch of confidence to your look. Discover our treatments.",
+    subheading: "Dê um toque de confiança ao seu visual. Descubra nossos tratamentos.",
     quickLinks: menuItems,
     cnpj: '44.615.561/0001-70',
     email: 'andradesclinic@gmail.com',
